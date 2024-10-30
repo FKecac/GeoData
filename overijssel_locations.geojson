@@ -1,0 +1,377 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [6.899143, 52.216845] },
+      "properties": {
+        "@id": "a5ed3a77-ebd3-4cb7-8371-e3efbd3d1a80",
+        "name": "Albert Heijn",
+        "crates": true,
+        "glass": true,
+        "cans": true,
+        "donation": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [6.855786, 52.193938] },
+      "properties": {
+        "@id": "ed3a20d6-bb7a-4686-802c-5aab2099e36a",
+        "name": "Albert Heijn",
+        "crates": true,
+        "glass": true,
+        "cans": true,
+        "donation": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [6.894722, 52.239167] },
+      "properties": {
+        "@id": "b5259d6d-a046-4870-b296-ca7112d1e816",
+        "name": "Albert Heijn",
+        "crates": true,
+        "glass": true,
+        "cans": true,
+        "donation": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [6.900955, 52.193415] },
+      "properties": {
+        "@id": "508cd1f0-4300-40c4-9f4d-064afccf5187",
+        "name": "Albert Heijn",
+        "crates": true,
+        "glass": true,
+        "cans": true,
+        "donation": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [6.878344, 52.192209] },
+      "properties": {
+        "@id": "b1bc9283-4dfb-4e29-b6ac-384fc2cf669a",
+        "name": "Albert Heijn",
+        "crates": true,
+        "glass": true,
+        "cans": true,
+        "donation": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [6.861664, 52.212904] },
+      "properties": {
+        "@id": "92b91a83-c092-4ddc-bd32-7d33f4a3a840",
+        "name": "Albert Heijn",
+        "crates": true,
+        "glass": true,
+        "cans": true,
+        "donation": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [6.85922, 52.228813] },
+      "properties": {
+        "@id": "86826ae9-c149-4d04-838d-b13ec962b073",
+        "name": "Albert Heijn",
+        "crates": true,
+        "glass": true,
+        "cans": true,
+        "donation": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [6.886095, 52.214265] },
+      "properties": {
+        "@id": "113bee10-2c50-49cb-9485-7970eef27642",
+        "name": "Aldi",
+        "crates": true,
+        "glass": true,
+        "cans": true,
+        "donation": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [6.862592, 52.212122] },
+      "properties": {
+        "@id": "43c78b34-eb22-4348-bb9f-3f4474a3090e",
+        "name": "Aldi",
+        "crates": true,
+        "glass": true,
+        "cans": true,
+        "donation": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [6.911092, 52.224293] },
+      "properties": {
+        "@id": "b94ea45f-5ac1-4492-b2f7-be4c37e0a256",
+        "name": "Aldi",
+        "crates": true,
+        "glass": true,
+        "cans": true,
+        "donation": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [6.927049, 52.219561] },
+      "properties": {
+        "@id": "debb2cb4-61f5-4918-bc78-49de702d7f54",
+        "name": "Aldi",
+        "crates": true,
+        "glass": true,
+        "cans": true,
+        "donation": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [6.901531, 52.193046] },
+      "properties": {
+        "@id": "0e218395-0789-4892-86af-65bd2b96c6b8",
+        "name": "Aldi",
+        "crates": true,
+        "glass": true,
+        "cans": true,
+        "donation": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [6.85147, 52.24366] },
+      "properties": {
+        "@id": "ff0add85-01bc-4874-8e43-c7b2285371e4",
+        "name": "Coop",
+        "crates": true,
+        "glass": true,
+        "cans": true,
+        "donation": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [6.865255, 52.212311] },
+      "properties": {
+        "@id": "2d7f4fd7-7765-4cbc-8cfb-b1127b811abc",
+        "name": "Dirk",
+        "crates": true,
+        "glass": true,
+        "cans": true,
+        "donation": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [6.892454, 52.239274] },
+      "properties": {
+        "@id": "2d8a88ab-fb73-430c-b6eb-e26c3b55b67a",
+        "name": "Dirk",
+        "crates": true,
+        "glass": true,
+        "cans": true,
+        "donation": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [6.891671, 52.231521] },
+      "properties": {
+        "@id": "a0a4da7a-3e8c-4e61-9adb-5b01e311fcec",
+        "name": "Jumbo",
+        "crates": true,
+        "glass": true,
+        "cans": true,
+        "donation": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [6.890026, 52.225438] },
+      "properties": {
+        "@id": "04ccc1b7-cd9c-4974-a645-c0783434c1a6",
+        "name": "Jumbo",
+        "crates": true,
+        "glass": true,
+        "cans": true,
+        "donation": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [6.878991, 52.206207] },
+      "properties": {
+        "@id": "7049e372-0b19-4c34-8c0e-6071fa607c52",
+        "name": "Jumbo",
+        "crates": true,
+        "glass": true,
+        "cans": true,
+        "donation": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [6.895101, 52.212979] },
+      "properties": {
+        "@id": "8555aeee-99ec-478c-b999-489194a65e82",
+        "name": "Jumbo",
+        "crates": true,
+        "glass": true,
+        "cans": true,
+        "donation": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [6.878588, 52.191598] },
+      "properties": {
+        "@id": "08d5d146-ede4-4744-a129-bdd0b0dbfd04",
+        "name": "Jumbo",
+        "crates": true,
+        "glass": true,
+        "cans": true,
+        "donation": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [6.86309, 52.21147] },
+      "properties": {
+        "@id": "62f17617-6298-49d5-97ae-1cdef4ed5479",
+        "name": "Jumbo",
+        "crates": true,
+        "glass": true,
+        "cans": true,
+        "donation": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [6.908651, 52.208918] },
+      "properties": {
+        "@id": "7fd2c23c-cef4-42ae-a201-77c86b9d4428",
+        "name": "Lidl",
+        "crates": true,
+        "glass": true,
+        "cans": true,
+        "donation": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [6.92116, 52.22977] },
+      "properties": {
+        "@id": "ec25d4aa-ab89-41f7-bace-123489d7f4ab",
+        "name": "Lidl",
+        "crates": true,
+        "glass": true,
+        "cans": true,
+        "donation": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [6.884117, 52.211823] },
+      "properties": {
+        "@id": "ad2dcc50-65cb-4c3c-b5d8-f9d3600cbf72",
+        "name": "Lidl",
+        "crates": true,
+        "glass": true,
+        "cans": true,
+        "donation": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [6.881102, 52.191954] },
+      "properties": {
+        "@id": "84550f4e-867a-497b-97da-7f202932e7f7",
+        "name": "Lidl",
+        "crates": true,
+        "glass": true,
+        "cans": true,
+        "donation": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [6.85777, 52.22932] },
+      "properties": {
+        "@id": "d2c54cfd-2a8e-41b9-a8a8-0af3e0869943",
+        "name": "Lidl",
+        "crates": true,
+        "glass": true,
+        "cans": true,
+        "donation": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [6.89288, 52.203871] },
+      "properties": {
+        "@id": "05b21adf-91f0-4d75-9a67-2504d8674f1e",
+        "name": "Nettorama",
+        "crates": true,
+        "glass": true,
+        "cans": true,
+        "donation": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [6.910623, 52.223856] },
+      "properties": {
+        "@id": "7c4ebd99-c2bc-4ea7-b164-7125c4c4df1c",
+        "name": "Jumbo",
+        "crates": true,
+        "glass": true,
+        "cans": true,
+        "donation": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [6.920525, 52.228929] },
+      "properties": {
+        "@id": "ef9f5cd2-c555-499f-b44a-0badd6061c71",
+        "name": "Jumbo",
+        "crates": true,
+        "glass": true,
+        "cans": true,
+        "donation": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [6.897958, 52.221574] },
+      "properties": {
+        "@id": "f5517929-4d86-450d-8cc2-c202787b2087",
+        "name": "Jumbo",
+        "crates": true,
+        "glass": true,
+        "cans": true,
+        "donation": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [6.881962, 52.224649] },
+      "properties": {
+        "@id": "29678ad4-6f3e-4f01-9dbf-b24f27525a12",
+        "name": "Aldi",
+        "crates": true,
+        "glass": true,
+        "cans": true,
+        "donation": false
+      }
+    }
+  ]
+}
