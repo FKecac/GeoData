@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script
+    src="https://thunkable.github.io/webviewer-extension/thunkableWebviewerExtension.js"
+    type="text/javascript"
+  ></script>
+</head>
+
+<body>
+
+</body>
+<script>
+  const storeGeoJsonUrl ="https://raw.githubusercontent.com/FKecac/GeoData/refs/heads/main/overijssel_locations.geojson";
+  let userLat = 0.0;
+  let userLng = 0.0;
+
+  function calculateDistance(lat1, lon1, lat2, lon2) {
+    const R = 6371; // Earth radius in kilometers
+    const dLat = (lat2 - lat1) * Math.PI / 180;
+    const dLon = (lon2 - lon1) * Math.PI / 180;
+    const a =
+      0.5 - Math.cos(dLat) / 2 +
+      Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+      (1 - Math.cos(dLon)) / 2;
+    return R * 2 * Math.asin(Math.sqrt(a));
+  }
+
+  function formatDistance(distance) {
+    if (distance >= 1) {
+      return distance.toFixed(1).replace('.', ',') + ' km';
+    } else {
+      const distanceInMeters = distance * 1000;
+      return Math.round(distanceInMeters) + ' m';
+    }
+  }
+
+
+  async function putStoreLocationsIntoSortedList() {
+    try {
+      const response = await fetch(storeGeoJsonUrl);
+      const geoJson = await response.json();
+
+      const stores = geoJson.features.map(feature => {
+        const { coordinates } = feature.geometry;
+        const distance = calculateDistance(userLat, userLng, coordinates[1], coordinates[0]);
+        return {
+          name: feature.properties.name,
+          distance,
+          distanceFormatted: formatDistance(distance),
+          lat: coordinates[1],
+          lng: coordinates[0]
+        };
+      });
+      stores.sort((a, b) => a.distance - b.distance);
+      console.log(stores[0]);
+      console.log(stores[1]);
+      for (let i = 0; i < 10; i++) {
+        setTimeout(() => sendData(stores[i]), 200+i*100);
+      }
+
+    } catch (error) {
+      console.error("Error fetching the GeoJSON data: ", error);
+    }
+  }
+
+  function sendData(store) {
+    ThunkableWebviewerExtension.postMessage("RTR;" + JSON.stringify(store));
+  }
+
+  // ThunkableWebviewerExtension.postMessage('sendDummyData')
+  // Call the function to send the data
+  ThunkableWebviewerExtension.receiveMessage(function(message) {
+    console.log(message);
+    if (message === "populate") {
+      putStoreLocationsIntoSortedList();
+    } else if (typeof message === "string" && message.startsWith("userLat;")) {
+      const latValue = parseFloat(message.substring(8));
+      if (!isNaN(latValue)) {
+        userLatitude = latValue;
+        console.log("User's latitude updated:", userLatitude);
+      } else {
+        console.warn("Invalid latitude value:", message);
+      }
+    } else if (
+      typeof message === "string" &&
+      message.startsWith("userLng;")
+    ) {
+      const lngValue = parseFloat(message.substring(8));
+      if (!isNaN(lngValue)) {
+        userLongitude = lngValue;
+        console.log("User's longitude updated:", userLongitude);
+      } else {
+        console.warn("Invalid longitude value:", message);
+      }
+    }
+  });
+</script>
+</html>
